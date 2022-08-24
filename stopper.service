@@ -1,0 +1,8 @@
+[Unit]
+Description=stopper
+
+[Service]
+ExecStart=/usr/local/bin/stopper.sh
+
+[Install]
+WantedBy=multi-user.target" > /etc/systemd/system/stopper.service
